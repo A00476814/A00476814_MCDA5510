@@ -1,23 +1,17 @@
 ### Rishabh Khevaria A00476814
 I come from Haryana, India and have completed my Bachelor of Technology in June 2020. My major was Electronics and communication, but I always had a keen interest in computer science related courses. In my third year of under-grad, I decided that I want to build my career in Software engineering rather than electronics, so I started programming by myself along with my course work. I was able to secure a job as a software developer in Amdocs Development centre India in my final year. I worked there as a Java Developer. My team primarily worked on building Microservices to shift T-Mobile USA from legacy systems to easily scalable and better performing Microservice architecture. Apart from that my tech stack included Kafka for async communication between microservices and Couchbase as our main database to store info. After three years I decided to continue my studies and get a master’s degree. I really liked MCDA at Saint Mary's University as it focuses a lot on experiential learning along with regular course work. This program will help me in accelerating my career as a Software Developer or even exploring other fields like Data Science.
 
-Fun Fact about me: I like to cook, and my chicken curry is delicious. 
+### Assignment 1 - Csv Parser and cleaner
 
-#### Common interest: Affinity to spicy food
-All three of us are international students and while sharing our first experiences in Canada, we figured out that all of us found our first meals here kind of bland even when the dish was marked as spicy. Spices are a big part of Asian cuisines, and we tend to be more liberal in using them as compared to West. We are planning to go out sometime for some spicy food.
+#### About: 
+The Program is coded to go though a directory and all its subdirectories and fetch all the csv files, Check for broker records and perform validation like null check and pattern checks. The the dn it writes all the correct records to a new csv file and logs all the errors.   
 
-### My Group Members
-#### Haodong Tao | A00474880
-* Tao is from China.
-* He choose MCDA because it's a short program that will benefit his career.
-* Fun Fact: Tao actually dropped 5510 and took 5511.
+#### Output:
+The program stores the output.csv file in ProgAssign1/Output folder. 
+The logs are saved in ProgAssign1/logs folder. At the end of the logs, the total exeuction time, No of valid records and No of faulty records are also printed.
 
-#### Sudeep Badal | A00431008 
-* Sudeep comes from my Nepal.
-* He choose MCDA to continue education at SMU as he completed his bachelor’s in computer science from here only.
-* Fun Fact: Sudeep sleep for the whole day as he has a full-time night job, so he has a inverted scheduled. 
+#### Steps to Execution:
+Just change the folder name in rootPath variable [Line 11 of Program.cs] if your data folder is present in the same directory as the program. 
+Alternatively, In case full path is needed, Please comment Line 11 and uncommnet line 12 where you can provide the full path of the folder.
 
-
-So far, we have had 6 lectures in total and I have observed the way study commences here in Canada is a lot different than India. Group work, Presentations, practical learning are things that Indian Education system lacks. Very excited to see how things roll out as we progress. 
-
-
+Please note: Program was written on a windows machine, For running on mac change of '\' to '/' is needed.
