@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AjmBgZw0qbeE5e+SXQJHcXO3QjJHF1LGrc7XvEjtAShrA8S3IXcZGvS+wi5rg9cINT9y8xrLUOERprPpsLlXdg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kheva\\OneDrive\\MCDA5510\\ProgAssign1\\ProgAssign1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kheva\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\kheva\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
